@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Post Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le styles -->
+<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+<link href="css/bootstrap-responsive.css" rel="stylesheet"/>
+<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+
+<style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+
+<style>
+      body {
+        padding-top: 60px;
+      }
+    </style>
+  
+
+</head>
+<body>
+
+
+<center><h1 style="margin-top:75px">Please Answer The Following Questions</h1></center>
+
+<form id="post_registration_form" name="post_registration_form" method="post" action="answer.php" class="well form-horizontal" style="color:#242432">
+
+<div style="margin-left:200px" class="container">
+<h4>REGISTRATION ID</h4>
+<label><input type="text" id="registration_id" name="registration_id" placeholder="Please Mention Your Registration ID" required> </label>
+</div>
+
+
+<div style="margin-left:200px" class="container">
+<h4>Q1.  Are You in Good Health ?</h4>
+<label class="radio">
+YES<input type="radio" name="q1" id="q1y" value="Yes" checked>
+</label>
+<label class="radio">
+NO<input type="radio" name="q1" id="q2n" value="No">
+</label>
+</div>
+
+<div style="margin-left:200px" class="container">
+<h4>Q2.  Are you prepared for breast-feeding in pregnancy visits and before delivery?</h4>
+<label class="radio">
+YES<input type="radio" name="q2" id="q2y" value="Yes" checked>
+</label>
+<label class="radio">
+NO<input type="radio" name="q2" id="q2n" value="No">
+</label>
+</div>
+
+
+<div style="margin-left:200px" class="container">
+<h4 id="3">Q3.  Is this your first baby ?</h4>
+<label class="radio">
+YES<input type="radio" name="q3" id="q3y" value="Yes" checked>
+</label>
+<label class="radio">
+NO<input type="radio" name="q3" id="q3n" value="No">
+</label>
+</div>
+
+    <div style="margin-left:200px" class="container">
+<h4>Q4.  Where your baby was delivered ?</h4>
+<label class="radio">
+HOME<input type="radio" name="q4" id="q4y" value="Home" checked>
+</label>
+<label class="radio">
+HOSPITAL / NURSING HOME<input type="radio" name="q4" id="q4n" value="Hospital/Nursing Home">
+</label>
+</div>
+
+<div style="margin-left:200px" class="container">
+<h4>Q5. The Type of Delivery you had ?</h4>
+<label class="radio">
+NORMAL<input type="radio" name="q5" id="q5y" value="Normal" checked>
+</label>
+<label class="radio">
+CAESEREAN<input type="radio" name="q5" id="q5n" value="Caeserean">
+</label>
+</div>
+
+
+ <div class="form-actions" style="margin-left:200px" class="container">
+    <button type="submit" class="btn btn-large btn-primary" action="">SUBMIT</button>
+    <button type="reset" class="btn">Reset</button>
+    </div>
+	
+	
+	
+	
+	<div class="navbar navbar-fixed-top visible-phone">
+  <div class="navbar-inner">
+    <div class="container"> 
+    
+   
+    </div>
+  </div>
+</div>
+</form>
+
+<script src="js/jquery-1.7.1.min"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

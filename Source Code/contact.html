@@ -1,0 +1,207 @@
+<!doctype html>
+ <html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	
+	
+	<title>Promoting Breast-Feeding</title>
+	
+	<!-- Mobile viewport optimized-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" media="screen" href="css/superfish.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	
+	
+	<!-- All JavaScript at the bottom, except this Modernizr build.-->
+	<script src="js/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+
+
+
+	<!-- HEADER -->
+	<header>
+		
+		<!-- header wrapper -->
+		<div class="wrapper cf">
+			<div id="logo">
+				<a href="index.html" ><img src="img/Breast_Milk1.png" alt="" /></a>
+			</div>
+		</div><!-- ENDS header wrapper -->
+		
+		
+		
+		<!-- nav -->
+		<nav class="cf">
+			<div class="wrapper cf">
+				<ul id="nav" class="sf-menu">
+				   <li class="current-menu-item"><a href="index.html">HOME<i><b></b></i></a></li>
+					<li><a href="about.html">ABOUT<i><b></b></i></a>
+						<ul>
+							<li><a href="about.html">BreasrFeeding</a></li>
+							<li><a href="about-malnutrition.html">Malnutrition</a></li>
+							<li><a href="about-tensteps.html">Successful Steps</a></li>
+							<li><a href="about-initiative.html">Our Initiative</a></li>
+						</ul>
+					</li>
+					<li><a href="vedios.html">RELATED VIDEOS<i><b></b></i></a></li>
+					<li><a href="contact.html">CONTACT US<i><b></b></i></a></li>
+					<li><a href="register.html">REGISTER NOW!<i><b></b></i></a></li>
+				</ul>
+				<div id="combo-holder"></div>
+			</div>
+		</nav>
+		<!-- ends nav -->
+			
+	</header>
+	<!-- ENDS HEADER -->
+	
+	
+	<!-- MAIN -->
+	<div role="main" id="main">
+		<div class="wrapper">
+		
+			<!-- page-content -->
+			<div class="page-content">
+				
+				<!-- GOOGLE MAPS -->
+				<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true" ></script>
+				<script type="text/javascript">
+					function initialize() {
+						var latlng = new google.maps.LatLng(28.584183700000000000, 77.163121800000000000);
+						var myOptions = {
+						  zoom: 8,
+						  center: latlng,
+						  mapTypeId: google.maps.MapTypeId.ROADMAP
+					};
+					var map = new google.maps.Map(document.getElementById("map_canvas"),
+					    myOptions);
+					}
+				</script>
+				<h2 class="heading">Location</h2>
+				<div id="map_canvas"></div>
+
+				<!-- ENDS GOOGLE MAPS -->
+					
+			
+				<h2 class="heading">Contact Form</h2>
+				<!-- form -->
+				<form id="contactForm" action="send-mail.php" method="post">
+					<fieldset>
+														
+						<p>
+							<label for="name" >Name</label>
+							<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" required/>
+						</p>
+						
+						<p>
+							<label for="mail">Email</label>
+							<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" required/>
+						</p>
+						
+						
+						
+						<p>
+							<label for="comments">Message</label>
+							<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments" required></textarea>
+						</p>
+						
+						<!-- send mail configuration -->
+						<input type="hidden" value="praveen.chaubey@iic.ac.in" name="to" id="to" />
+						<input type="hidden" value="Test Mail" name="subject" id="subject" />
+						<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+						<!-- ENDS send mail configuration -->
+						
+						<p><input type="button" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+					</fieldset>
+					
+				</form>
+				<p id="sent-form-msg" class="success">Form Data Sent. Thank You for Contacting With Us.</p>
+				<!-- ENDS form -->	
+				<div class="c-1"></div>
+				<div class="c-2"></div>
+				<div class="c-3"></div>
+				<div class="c-4"></div>
+			</div><!-- ENDS page-content -->
+			
+	  
+	  
+	  </div>
+	</div>
+	<!-- ENDS MAIN -->
+	
+	
+	<footer>
+	
+		<!-- wrapper -->
+		<div class="wrapper cf">
+		
+		
+				<!-- social -->
+			<div class="sb-holder cf">
+				<ul id="social-bar" class="cf">
+					<li class="left-corner"><i></i></li>
+					
+					<li><a href="#" title="Share On Facebook"
+  onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+    return false;"><img src="img/social/Facebook.png"  alt="Facebook" /></a></li>
+    
+					<li> <a href="https://twitter.com/share" title="Share On Twitter" class="twitter-share-button" data-related="jasoncosta" data-lang="en" data-size="large" data-count="vertical">Tweet</a>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+					
+					<li><a href="https://plus.google.com/share?url=http://projects.iic.ac.in/nic/Boffins/index.html" title="Share On Google+" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="img/social/Google+.png" alt="Google plus" /></a></li>
+					<li class="right-corner"><i></i></li>
+				</ul>
+				
+				
+			</div>
+			<!-- ENDS social -->
+			
+			<p class="pull-right"><a href="#"><img src="img/top.jpeg" alt="" /></a></p>
+		</div><!-- ENDS wrapper -->
+		
+		
+		
+
+	</footer>
+
+
+	<!-- JavaScript at the bottom for fast page loading -->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
+	
+	<!-- scripts concatenated and minified via build script -->
+	<script src="js/custom.js"></script>
+	
+	<!-- superfish -->
+	<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+	<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+	<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+	<!-- ENDS superfish -->
+	
+	<script src="js/tweet/jquery.tweet.js" ></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nivo.slider.js" ></script>
+	<script src="js/css3-mediaqueries.js"></script>
+	<script src="js/tabs.js"></script>
+	<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+	<script type="text/javascript" src="js/form-validation.js"></script>
+	<!-- end scripts -->
+	
+	<!-- Start google map -->
+	<script>initialize();</script>
+	
+		
+</body>
+</html>
